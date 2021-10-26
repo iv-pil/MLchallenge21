@@ -1,7 +1,5 @@
 """
 Author: Ivan Pilkov
-Matr.Nr.: K12049126
-Exercise 5
 
 main.py
 
