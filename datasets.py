@@ -96,9 +96,9 @@ def datareader(image_array, border_x: (int, int), border_y: (int, int)):
 def norm(array):
     array = np.array(array, dtype=np.float32)
     amin = np.min(array)
-    array -= min
+    array -= amin
     amax = np.max(array)
-    array /= max
+    array /= amax
     array *= 2
     array -= 1
     return array, amin, amax
